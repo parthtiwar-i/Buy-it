@@ -8,7 +8,7 @@ const app = express();
 
 const corsOptions = {
     // Replace with your Firebase app's URL
-  origin: "http://localhost:3000", 
+  origin: "https://buy-it-f0426.web.app/payment", 
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
 };
 
