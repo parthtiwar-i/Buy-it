@@ -1,4 +1,4 @@
-const functions = require("firebase-functions");
+// const functions = require("firebase-functions");
 const express = require("express");
 const cors = require("cors");
 const stripe = require("stripe")(
@@ -34,4 +34,4 @@ app.post("/payments/create", async (req, res) => {
   });
 });
 
-exports.api = functions.https.onRequest(app);
+module.exports = app;
