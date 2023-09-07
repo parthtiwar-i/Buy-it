@@ -6,13 +6,13 @@ const stripe = require("stripe")(
 
 const app = express();
 
-const corsOptions = {
-    // Replace with your Firebase app's URL
-  origin: "https://buy-it-f0426.web.app/payment", 
-  methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
-};
+// const corsOptions = {
+//     // Replace with your Firebase app's URL
+//   origin: "https://buy-it-f0426.web.app/payment", 
+//   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+// };
 
-app.use(cors(corsOptions));
+app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
