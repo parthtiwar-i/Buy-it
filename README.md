@@ -12,7 +12,7 @@ This is the README file for the Buy-It E-commerce web application. But-It is a R
 
 ## Overview
 
-The But-It web application is designed to provide a seamless shopping experience for users. It incorporates essential e-commerce functionalities, allowing users to browse products, add items to their cart, and complete purchases securely using Stripe card payment integration.
+The Buy-It web application is designed to provide a seamless shopping experience for users. It incorporates essential e-commerce functionalities, allowing users to browse products, add items to their cart, and complete purchases securely using Stripe card payment integration.
 
 ## Technologies Used
 
